@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: grey;
+}
+
+#canvas {
+  margin: 0 30%;
+  border: 3px solid white;
+  height: 800px;
+  width: 800px;
+}
+
+#thank-you {
+  color: white;
+  height: 200px;
+  border: 3px solid white;
+}
+
+form {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.input {
+  width: 700px;
+  border: 1px solid white;
+  background-color: grey;
+  color: white;
+  font-size: 2em;
+  outline: none;
+  position: relative;
+  left: 50px;
+}
+
+::placeholder {
+  color: white;
+}
+
+
+
+label {
+  position: relative;
+  left: 50px;
+  font-size: 2em;
+  color: white;
+}
+
+button {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: 150px;
+  left: 260px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  outline: none;
+  box-shadow: 1px 5px 0 0 black;
+  font-size: 35px;
+}
+
+label.error {
+  color:red;
+}
+
+input.error {
+  border:1px solid red;
+}
